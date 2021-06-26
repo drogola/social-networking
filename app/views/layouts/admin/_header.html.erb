@@ -7,10 +7,10 @@
       <li id="teste" class="nav-item <%= current_page?(admin_admins_path)? "active" : "" %>">
         <%= link_to "Administradores", admin_admins_path, class: "nav-link" %>
       </li>
-      <li class="nav-item <%= current_page?(admin_root_path)? "active" : "" %>">
+      <li class="nav-item ">
         <%= link_to "Usuarios", admin_root_path, class: "nav-link"%>
       </li>
-      <li class="nav-item <%= current_page?(admin_root_path)? "active" : "" %>">
+      <li class="nav-item ">
       <%= link_to "Posts", admin_root_path, class: "nav-link"%>
       </li>
       <li class="nav-item">
