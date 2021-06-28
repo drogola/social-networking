@@ -1,1 +1,9 @@
-<h1 id="amogus" > ඞ </h1>
+<h5> sim </h5 >
+
+<div clas="row">
+  <div class="offset-2 col-lg-8">
+    <%= @posts.each do |post| %>
+      <%= render "user/post_card", post: post %>
+    <% end %>
+  </div>
+</div>
